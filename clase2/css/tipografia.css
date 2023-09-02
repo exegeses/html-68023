@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600&display=swap');
+
 body{
    background-color: #212424;
    color: #08c767;
-   font-family: Tahoma;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 300;
 }
 
+h1{
+   font-weight: 300;
+   color: beige;
+}
+
+h2{
+   color: rgb(160, 218, 196);
+}
+
+
+p{
+   background-color: hsl(180, 4%, 10%);
+   padding: 24px;
+}
 
 
  
