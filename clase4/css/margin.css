@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    background-color: #1d0f20;
+    color: hsl(289, 36%, 70%);
+}
+h1{
+    font-weight: 300;
+}
+
+#verde{
+    width: 128px;
+    height: 128px;
+    background-color: hsl(115, 36%, 70%);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+}
+
+#celeste{
+    width: 128px;
+    height: 128px;
+    background-color: hsl(196, 36%, 70%);
+
+    /* margin se usa TAMBIÉN para centrar un contenedor */
+    margin: auto;
+}
+#blanco{
+    width: 128px;
+    height: 128px;
+    background-color: hsl(307, 82%, 98%);
+    margin: 32px;
+}
