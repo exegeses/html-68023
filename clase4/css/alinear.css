@@ -1,0 +1,32 @@
+#contenedor, 
+#contenedor2, 
+#contenedor3
+{
+    width: 768px;
+    background-color: #e2e2e2;
+    margin: 32px auto;
+}
+    #contenedor img{
+        width: 128px;
+        margin-right: 16px;
+        vertical-align: middle;
+    }
+
+
+    #contenedor2{
+        text-align: center;
+    }
+    #contenedor2 img{
+        width: 128px;
+    }
+
+    #contenedor3{
+        display: flex;
+        justify-content: space-between;
+    }
+    #contenedor3 article{
+        width: 128px;
+    }
+    #contenedor3 img{
+        width: 128px;
+    }
