@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;    
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    color: #3C3C3C;
+}
+
+header{
+    width: 1024px;
+    height: 104px;
+    margin: auto; /* centrado de contenedores */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /* centrado en eje vertical */
+}
+    header a{
+        text-decoration: none; /* quitar el subrayado */
+        font-weight: 600;
+        font-size: 20px;
+        color: #3C3C3C;
+    }
+
+    header a img{
+        vertical-align: middle;
+        margin-left: 20px;
+        margin-right: 16px;
+    }
+    header nav a{
+        padding: 8px;
+    }
+
+/* main */
+main{
+    width: 1024px;
+    min-height: 600px;
+    margin: auto;
+}
+
+/* hero banner */
+    #hero-banner{
+        height: 450px;
+        background-image: url(../imgs/hero-banner.jpg);
+        background-size: 1024px;
+        background-position: 0 center;
+        display: flex;
+        align-items: center; /* centrado en vertical */
+    }
+        #hero-banner h1{
+            font-size: 32px;
+            color: #fff;
+            width: 215px;
+            margin-left: 176px;
+        }
+
+/* sección promos */
+#promos{
+    height: 486px;
+    background-color: #FFF3E9;
+    margin-top: 40px;
+    padding: 32px 56px;
+/*
+    padding-top: 32px;
+    padding-right: 56px;
+    padding-bottom: 32px;
+    padding-left: 56px;
+*/
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    #promos h2{
+        width: 100%;
+        font-weight: 400;
+    }
+    #promos article{
+        width: 272px;
+        padding: 8px;
+        background-color: #fff;
+    }
