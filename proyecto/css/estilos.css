@@ -86,3 +86,25 @@ main{
         padding: 8px;
         background-color: #fff;
     }
+
+/* Footer */
+footer{
+    width: 1024px;
+    height: 160px;
+    background-color: #3c3c3c;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    footer a{
+        color: #fff;
+        text-decoration: none;
+    }
+    footer a img{
+        margin: 0px 8px 0px 16px;
+        vertical-align: middle;
+    }
+    footer nav{
+        margin-right: 16px;
+    }
